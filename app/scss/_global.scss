@@ -1,0 +1,40 @@
+body{
+    line-height: 1.375;
+    font-family: 'Museosans', sans-serif;
+    font-weight: 300;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    &.lock{
+        overflow: hidden;
+    }
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main_page{
+    position: relative;
+    overflow: auto;
+    height: 660px;
+    width: 100%;
+}
+.bg-container {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.bg-container1 {
+    position: relative;
+    right: -50%;
+    display: inline-block;
+}
+.BG{
+    display: inline-block;
+    position: relative;
+    left: -50%;
+}
